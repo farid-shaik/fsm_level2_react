@@ -1,0 +1,147 @@
+.App{
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  
+}
+
+.search-form{
+  min-height: 10vh;
+  display:  flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button{
+  background: lightcoral;
+  border: none;
+  padding: 10px 20px;
+  color: white;
+}
+
+.recipes{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+/* nav bar */
+
+
+/*
+
+nav{
+  height: 10vh;
+  background: #5b78c7;
+  font-family: sans-serif;
+  padding-top: 10px;
+  padding-bottom: 30px;;
+}
+.nav-links{
+ display: flex;
+ list-style: none;
+ width: 50%;
+ height: 100%;
+ justify-content: space-around;
+ align-items: center;
+ margin-left: auto;
+ 
+}
+
+.nav-links li a {
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+  font-size: 30px;
+  
+}
+
+*/
+
+
+
+
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: #5b78c7;
+  
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+}
+.button1:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.button2 {
+  background-color: #5b78c7;
+  
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+.button3 {
+  background-color: #5b78c7;
+  
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+}
+
+.button3:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+.button4 {
+  background-color: #5b78c7;
+  
+  border: 2px solid #4CAF50;
+  border-radius: 10px;
+}
+
+.button4:hover {
+  background-color: #555555;
+  color: white;
+}
+
+
+.video{
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+
+.image{
+  height: 350px;
+  width: 100%;
+}
+.footer{
+  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+}
+.bruschetta{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:black;
+  
+}
+
